@@ -636,21 +636,6 @@
             label = "LTE";
         };
 
-        screen_clip: screen_clip {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <
-				# Press Windows, Shift, S (all down)
-				&mkp LGUI
-				&mkp LSHIFT
-				&mkp S
-				# Release them (all up)
-				&mkr S
-				&mkr LSHIFT
-				&mkr LGUI
-			>;
-            label = "SCREEN_CLIP";
-        };
     };
 
     combos {
@@ -668,7 +653,7 @@
         };
 
         screen_clip {
-            bindings = <&screen_clip>;
+            bindings = <&kp LG(LS(S))>;
             key-positions = <6 7>;
         };
     };
