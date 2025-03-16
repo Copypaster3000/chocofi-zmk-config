@@ -640,11 +640,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <
-				// Press Windows, Shift, S (all down)
+				# Press Windows, Shift, S (all down)
 				&mkp LGUI
 				&mkp LSHIFT
 				&mkp S
-				// Release them (all up)
+				# Release them (all up)
 				&mkr S
 				&mkr LSHIFT
 				&mkr LGUI
