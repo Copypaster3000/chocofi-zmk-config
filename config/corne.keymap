@@ -650,6 +650,10 @@
             bindings = <&kp ESCAPE>;
             key-positions = <13 12>;
         };
+		
+		win_shift_s {
+			bindings = <&kp LS(LG(S))>;
+            key-positions = <6 7>;
     };
 
     keymap {
