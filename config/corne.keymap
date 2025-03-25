@@ -635,7 +635,6 @@
             bindings = <&kp LT &kp EQUAL>;
             label = "LTE";
         };
-
     };
 
     combos {
@@ -654,7 +653,7 @@
 
         screen_clip {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <6 7>;
+            key-positions = <3 2>;
         };
     };
 
