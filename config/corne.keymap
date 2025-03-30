@@ -653,7 +653,7 @@
 
         screen_clip {
             bindings = <&kp LG(LS(S))>;
-            key-positions = <11 10>;
+            key-positions = <0 1>;
         };
 
         toggle_layer_3 {
@@ -662,7 +662,7 @@
         };
 
         caps_lock {
-            bindings = <&kt CAPSLOCK>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <22 23>;
         };
     };
